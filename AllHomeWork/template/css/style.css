@@ -1,0 +1,334 @@
+*
+{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+body
+{
+ min-width: 300px !important;
+ background: #f2f7f2;
+}
+
+.container-fluid
+{
+    height: 500px;
+   
+}
+
+#header-cover-container 
+{
+    width: 100%;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    background: url('../img/cover.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+   
+}
+
+
+#header-cover-layer
+{
+    width: 100%;
+    height: 500px;
+    background: #000;
+    transition: 1s ease-in-out;
+    
+}
+
+#header-cover-content
+{
+    width: 100%;
+    animation-delay: 1s !important;  
+}
+
+
+#header-cover-title
+{
+    border-bottom: 3px solid white;
+    width: 60%;
+    text-align: center;
+    padding-bottom: 5% !important;
+    max-height: 500px;
+}
+
+#header-cover-title > h1 
+{
+    font-size: 8vw;
+    font-family: 'Pacifico', cursive;
+    
+}
+
+
+#header-cover-description
+{
+  
+  letter-spacing: 4px;
+  font-size: 13px;
+}
+
+/* header end */
+
+
+#first-section
+{
+    width: 100%;
+}
+.container
+{ margin: auto !important;}
+
+.first-content
+{
+    
+    background: #fff;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+}
+
+
+.diamond-icon
+{
+    border: 2px solid dimgray;
+    width: 100px;
+    height: 100px; 
+    border-radius: 50%;
+   
+}
+
+.diamond-icon i 
+{
+    font-size: 42px; 
+    line-height: 100px;
+    color:  dimgray
+}
+
+
+
+.first-content-title h2
+{
+  letter-spacing: 2px;
+  color: dimgray;
+}
+
+.first-content-description
+{ width: 40%;}
+
+
+.first-content-description p
+{font-weight: 100;}
+
+
+
+.first-content-button button
+{
+    width: 180px;
+    height: 40px;
+    border: 1px solid dimgray;
+    background: transparent;
+    color: dimgray;
+    font-weight: 400;
+    letter-spacing: 3px;
+    border-radius: 5px;
+    transition: .5s;      
+}
+
+
+
+
+
+.first-content-button button:hover
+{
+    color: salmon;
+    border: 1px solid salmon
+}
+
+/* first section end */
+
+.card-container
+{
+    background: #fff;
+    padding-bottom: 50px !important;
+}
+
+.card-img
+{
+    overflow: hidden;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.card-img img
+{
+width: 100%;
+height: 300px;
+transition: .5s;
+}
+
+.card-img img:hover
+{transform: scale(1.5, 1.5) !important;}
+
+.card-title
+{
+ top: 0;
+ line-height: 300px;
+ cursor: context-menu;
+}
+
+.card-button button
+{
+    width: 80px;
+    height: 40px;
+    border: 1px solid dimgray;
+    background: transparent;
+    color: dimgray;
+    font-weight: 400;
+    letter-spacing: 3px;
+    border-radius: 5px;
+    transition: .5s;      
+}
+
+.card-button button:hover
+{
+    color: salmon;
+    border: 1px solid salmon
+}
+
+/* news-section end */
+
+.bottom-title
+{
+    color: dimgray;
+    letter-spacing: 2px;
+}
+
+
+.bottom-button button
+{
+    width: 180px;
+    height: 40px;
+    border: 1px solid dimgray;
+    background: transparent;
+    color: dimgray;
+    font-weight: 400;
+    letter-spacing: 3px;
+    border-radius: 5px;
+    transition: .5s;      
+}
+
+
+
+
+
+.bottom-button button:hover
+{
+    color: salmon;
+    border: 1px solid salmon
+}
+
+.bottom-design-line
+{
+    width: 100px;
+    border: 1px solid dimgray;
+}
+
+/* bottom content end */
+
+.footer-icons ul 
+{list-style: none;}
+
+.footer-icons ul li
+{display: inline;
+ padding-left: 15px !important;
+}
+
+.footer-icons ul li a
+{
+    font-size: 17px;
+    text-decoration: none;
+    color: dimgray;
+    transition: .5s;
+}
+
+.footer-icons ul li a:hover
+{color: salmon;}
+
+.copy-right span
+{border-bottom: 1px dotted dimgray;}
+
+/* media */
+@media  screen and (min-width: 2000px)
+{ 
+    #header-cover-title
+    {padding-bottom: 115px !important;}
+    
+    #header-cover-title > h1
+    {font-size: 170px !important;}
+
+}
+
+
+@media screen and (max-width: 813px)
+{
+    #header-cover-title
+    {width: 469px !important;}
+    
+    #header-cover-description
+    {font-size: 13px !important;}
+
+    .first-content-description
+    {width: 70%;}
+}
+
+
+
+@media screen and (max-width: 993px)
+{
+   .first-content-description
+    {width: 60%;}
+}
+
+
+@media screen and (max-width: 993px)
+{
+    
+    .first-content-description
+    {width: 60%;}
+}
+
+@media screen and (max-width: 768px)
+{
+   .first-content-description
+    {width: 80%;}
+}
+
+@media screen and (max-width: 492px)
+{
+    #header-cover-title
+    {width: 287px !important;}
+    
+    #header-cover-description
+    {font-size: 12px !important;
+     letter-spacing: normal;
+    }
+    .first-content-description
+    {width: 90%;}
+}
+
+@media screen and (max-width: 481px)
+{
+  .big-button
+  {width: 100% !important;}
+}
+
+
+
+
+
+
+
+
+
+
