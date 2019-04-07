@@ -321,7 +321,12 @@ editButton.addEventListener('click', ()=>
 function validateEditing(manufacturer, model, release)
 {    
 
-  if(!manufacturer.value.match(manufacturer))
+  if(manufacturer.value == '' || model.value =='' || release.value == '')
+  {
+    showAlert('Inputs cannot be empty!');
+    return false;
+  } 
+  else if(!manufacturer.value.match(manufacturer))
     {
      showAlert('You can use only letter for Manufacturer');
      return false;
